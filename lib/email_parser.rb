@@ -12,7 +12,6 @@ class EmailParser
   
   def initialize(email_string)
     @all_emails = email_string.split(", ")
-    
   end
   
 end
