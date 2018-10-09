@@ -5,3 +5,5 @@
 
 class EmailParser
   attr_accessor
+  
+  def initialize(email_string)
