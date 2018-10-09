@@ -9,7 +9,7 @@ class EmailParser
   @@all_emails = []
   
   def initialize(email_string)
-    @@all_emails 
+    @@all_emails << email_string.split(", ")
   end
   
 end
