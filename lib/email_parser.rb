@@ -15,7 +15,7 @@ class EmailParser
   end
   
   def parse 
-    @all_emails = email_string.split(", ")
+    @all_emails.split(", ")
   end
   
 end
