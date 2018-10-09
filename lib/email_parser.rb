@@ -6,6 +6,8 @@
 class EmailParser
   attr_accessor
   
+  @@all_emails = []
+  
   def initialize(email_string)
     
   end
